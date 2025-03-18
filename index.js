@@ -58,7 +58,7 @@ server.put("/customers/:id", (req, res) => {
 
   });
 
-  // Excluindo um customers por id utilizando o método http delete.
+  // Excluindo um customers por id utilizando o método http delete. 
 
   server.delete("/customers/:id", (req, res) => {
    
